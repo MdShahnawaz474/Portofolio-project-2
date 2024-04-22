@@ -320,3 +320,35 @@ bottom: 10%;
   flex-direction: column;
    
 }
+
+.project-card{
+  width: 90%;
+  height: 550px;
+  background-image: url(./images/project1/p1\ razarpay.png);
+  background-size: cover;
+  position: relative;
+  box-shadow: 0px 0px 40px #1f1f1ff1;
+  
+}
+
+.project-card::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #1f1f1f9a;
+  transform: scaleX (1);
+}
+
+.project-card::before{
+  container:"";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, #343d68, #343d68be, #343d687c);
+  
+}
