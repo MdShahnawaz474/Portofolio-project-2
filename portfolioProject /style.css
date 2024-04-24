@@ -533,3 +533,40 @@ bottom: 10%;
     scale: 0.55;
   }
 }
+
+
+.skill-container{
+  position: relative;
+  display: flex;
+  padding: 5rem;
+  margin: 10rem auto;
+  gap: 30px;
+
+}
+
+.skill-container-left{
+  width: 50%;
+  display: flex;
+ flex-direction: column;
+
+}
+
+.skill-container-right{
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  gap:2rem;
+}
+
+.skill-fade-text{
+  position: absolute;
+  font-size: 15em;
+  font-style: bold;
+  color: rgb(231,231,231);
+  bottom: -34.5%;
+  right: -25%; 
+  user-select: none;
+  overflow-y: hidden;
+}
+
