@@ -654,3 +654,16 @@ bottom: 10%;
   width: 70%;
   margin: 2rem 5rem ;
 }
+
+.formfield-container{
+  width: 100%;
+}
+
+.formfield{
+  width: 100%;
+  height: 42px;
+  padding: 0 2rem;
+  font-size: 18px;
+}
+
+
